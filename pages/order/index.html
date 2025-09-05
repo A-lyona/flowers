@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>LOVER FLOWER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../../assets/0.png" type="image/x-icon" />
+  </head>
+  <body>
+		<header>
+			<nav class="nav_wrap">
+				<a class="link" href="../../pages/catalog/index.html"><li>Каталог</li></a>
+				<a class="link" href="../../pages/pay/index.html"><li>Доставка и оплата</li></a>
+				<a class="link" href="../../pages/about/index.html"><li>О нас</li></a>
+				<a class="link" href="../../pages/contacts/index.html"><li>Контакты</li></a>
+				<a class="link" href="../../pages/FAQ/index.html"><li>FAQ</li></a>
+			</nav>
+		</header>
+		<main>
+    <!---------------------------------------------ОПЛАТА УСПЕШНО------------------------------------------------------------->
+      <div id="myModal" class="modal">
+          <div class="modal_content">
+            <p class="modal_text">Ваш номер заказа – 395808599</p>
+            <p class="modal_text2">Спасибо за заказ!<br>
+                                  Вы получите уведомление о статусе вашего заказа</p>
+            <a class="link" href="../../pages/main/index.html"><p class="modal_but">на главную</p></a>
+          </div>
+      </div>
+    <!---------------------------------------------ОПЛАТА ОШИБКА------------------------------------------------------------->
+      <div id="myModal2" class="modal2">
+          <div class="modal_content2">
+            <p class="modal_text3">Произошла ошибка....<br>
+                                  Попробуйте оплатить еще раз!
+            </p>
+            <a class="link" href="../../pages/order/index.html" id="modal_close"><p class="modal_but2">Оплатить еще раз</p></a>
+            <a class="link" href="../../pages/main/index.html"><p class="modal_but3">Вернуться на главную</p></a>
+          </div>
+      </div>
+    <!---------------------------------------------ОПЛАТА 404------------------------------------------------------------->
+      <div id="myModal3" class="modal3">
+          <div class="modal_content3">
+            <p class="modal_text4">Ошибка 404</p>
+            <p class="modal_text5">Упс...Такой страницы нет</p>
+            <a class="link" href="../../pages/main/index.html"><p class="modal_but4">на главную</p></a>
+          </div>
+      </div>
+    <!------------------------------------------------------------------------------------------------------------------------>
+      <a class="link" href="../../pages/main/index.html"><p class="main_but">на главную</p></a>
+      <div class="order_wrapper">
+        <p class="order_title">Оформление заказа</p>
+        <div class="one">
+          <p class="order_text">Контактные данные</p>
+          <form>
+            <label for="fname" class="contact_name">Ваше имя *</label><br>
+            <input type="text" id="fname" name="fname" class="contact_field"><br>
+            <label for="lname" class="contact_name">Ваш телефон *</label><br>
+            <input type="text" id="lname" name="lname" class="contact_field"><br>
+            <label for="lname" class="contact_name">Ваш e-mail *</label><br>
+            <input type="text" id="lname" name="lname" class="contact_field"><br>
+            <label for="lname" class="contact_name">Телефон получателя (необязательно)</label><br>
+            <input type="text" id="lname" name="lname" class="contact_field"><br>
+            <label for="lname" class="contact_name">Имя получателя (необязательно)</label><br>
+            <input type="text" id="lname" name="lname" class="contact_field"><br>
+            <label for="lname" class="contact_name">Комментарий к заказу</label><br>
+            <input type="text" id="lname" name="lname" class="contact_field"><br>
+          </form>
+        </div>
+        <div class="two">
+          <p class="order_text">Доставка</p>
+          <form>
+            <div class="checkbox_wrapper">
+              <input name="dzen" type="radio" value="dzen" id="checkbox">
+              <label for="checkbox" class="checkbox">Самовывоз</label><br>
+              <input name="dzen" type="radio" value="dzen" id="checkbox">
+              <label for="checkbox" class="checkbox">Доставка курьером</label><br>
+            </div>
+            <label for="country" class="contact_name radio">Город *</label><br>
+            <select id="country" name="country" class="select_field">
+              <option value="usa">Барановичи</option>
+              <option value="usa">Бобруйск</option>
+              <option value="usa">Борисов</option>
+              <option value="usa">Брест</option>
+              <option value="usa">Витебск</option>
+              <option value="usa">Волковыск</option>
+              <option value="usa">Гомель</option>
+              <option value="usa">Горки</option>
+              <option value="usa">Гродно</option>
+              <option value="usa">Жодино</option>
+              <option value="usa">Жлобин</option>
+              <option value="usa">Калинковичи</option>
+              <option value="usa">Кобрин</option>
+              <option value="usa">Лида</option>
+              <option value="usa">Минск</option>
+              <option value="usa">Могилев</option>
+              <option value="usa">Мозырь</option>
+              <option value="usa">Молодечно</option>
+              <option value="usa">Орша</option>
+              <option value="usa">Осиповичи</option>
+              <option value="usa">Пинск</option>
+              <option value="usa">Полоцк</option>
+              <option value="usa">Речица</option>
+              <option value="usa">Рогачёв</option>
+              <option value="usa">Слоним</option>
+              <option value="usa">Слуцк</option>
+              <option value="usa">Сморгонь</option>
+              <option value="usa">Солигорск</option>
+            </select><br>
+            <label for="fname" class="contact_name">Улица *</label><br>
+            <input type="text" id="fname" name="fname" class="contact_field"><br>
+            <label for="fname" class="contact_name">Корп / стр</label><br>
+            <input type="text" id="fname" name="fname" class="contact_field"><br>
+            <label for="fname" class="contact_name">Дом</label><br>
+            <input type="text" id="fname" name="fname" class="contact_field"><br>
+            <label for="fname" class="contact_name">Кв / офис</label><br>
+            <input type="text" id="fname" name="fname" class="contact_field"><br>
+            <label for="time" class="contact_name">Время доставки</label><br>
+            <input type="time" id="time" name="fname" class="contact_field"/>
+            <p class="contact_order_text">Стоимость доставки 0 ₽</p>
+          </form> 
+        </div>
+        <div class="three">
+          <p class="order_text">Оплата</p>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">Банковская карта</label><br>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">Наличными</label><br>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">Apple pay</label><br>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">Google pay</label><br>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">Криптовалюта</label><br>
+            <input name="dzen" type="radio" value="dzen" id="checkbox">
+            <label for="checkbox" class="checkbox">С расчетного счета</label><br>
+        </div>
+        <p class="order_title">Общая сумма заказа&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;334.00 ₽</p>
+        <button class="order_but" id="myBtn">Оплатить</button>
+      </div>
+      <div class="you_order_wrapper">
+        <p class="you_order_text">Ваш заказ:</p>
+        <div class="line_hor"></div>
+        <div class="you_order">
+          <img src="../../assets/29.png" alt="img">
+          <div class="you_order_name_wrapper">
+            <p class="you_order_name">рубиновые искры</p>
+            <div class="you_order_name_but">
+                <button class="name_but">-</button>
+                <span class="count_but">1</span>
+                <button class="name_but">+</button>
+            </div>
+          </div>
+          <div class="you_order_price_wrapper">
+            <p class="you_order_price">145.00 руб</p>
+            <p class="you_order_but">Удалить</p>
+          </div>
+        </div>
+        <div class="line_hor"></div>
+        <div class="you_order">
+          <img src="../../assets/30.png" alt="img">
+          <div class="you_order_name_wrapper">
+            <p class="you_order_name">рубиновые искры</p>
+            <div class="you_order_name_but">
+                <button class="name_but">-</button>
+                <span class="count_but">1</span>
+                <button class="name_but">+</button>
+            </div>
+          </div>
+          <div class="you_order_price_wrapper">
+            <p class="you_order_price">145.00 руб</p>
+            <p class="you_order_but">Удалить</p>
+          </div>
+        </div>
+        <div class="line_hor"></div>
+        <p class="you_order_text">Предварительный итог: 334.00 руб.</p>
+      </div>
+    </main>
+		<footer>
+      <nav class="footer_nav_wrap">
+        <a class="link" href="../../pages/catalog/index.html"><li class="footer_nav">Каталог</li></a>
+        <a class="link" href="../../pages/pay/index.html"><li class="footer_nav">Доставка и оплата</li></a>
+        <a class="link" href="../../pages/about/index.html"><li class="footer_nav">О нас</li></a>
+        <a class="link" href="../../pages/FAQ/index.html"><li class="footer_nav">FAQ</li></a>
+      </nav>
+      <section class="footer_adres_wrap">
+      <div class="adres_wrap">
+				<p class="adres_p">ул. Тимирязева 67</p>
+				<p class="adres_pp">10:00 до 21:00<br>без выходных</p>
+			</div>
+      <div class="num_wrap">
+        <p class="num_p">+375 (29) 113-69-69</p>
+        <p class="num_pp">прием звонков круглосуточно</p>
+      </div>
+      <div class="soc_wrap">
+        <a class="link" href="https://www.instagram.com/loveflowers.ru/" target="_blank"><img src="../../assets/11.png" alt="social" class="social_icon"></a>
+        <a class="link" href="https://api.whatsapp.com/send/?phone=375447865273&text&type=phone_number&app_absent=0" target="_blank"><img src="../../assets/12.png" alt="social" class="social_icon"></a>
+        <a class="link" href="viber://chat?number=%2B375447865273" target="_blank"><img src="../../assets/13.png" alt="social" class="social_icon"></a>
+      </div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
