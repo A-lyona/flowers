@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    user-select: none;
+    font-family: 'Roboto';
+	list-style-type: none;
+    outline: none;
+}
+  
+body {
+    width: 100%;
+    height: 6730px;
+	background-color: #040a0a;
+}
+
+main {
+	width: 1440px;
+    height: 6731px;
+	background-image: url(../../assets/1.png);
+	margin: auto;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	width: 992px;
+    height: 55px;
+	margin-left: 320px;
+	margin-top: 25px;
+}
+
+.nav_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 600px;
+    height: 55px;
+}
+
+li {
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #43FFD2;
+}
+
+.adres_wrap {
+	display: flex;
+	flex-direction: column;
+	width: 130px;
+    height: 55px;
+}
+
+.adres_p {
+	font-style: normal;
+    font-weight: normal;
+	text-align: center;
+    font-size: 14px;
+	color: #43FFD2;
+}
+
+.adres_pp {
+	font-style: normal;
+    font-weight: normal;
+	text-align: center;
+    font-size: 10px;
+	color: #fff;
+}
+
+.but_catalog {
+	position: absolute;
+	top: 565px;
+	left: 43%;
+	width: 220px;
+    height: 50px;
+	background-color: #43FFD2;
+	color: #000;
+	font-family: 'Oswald';
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+    font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.catalog_wrap {
+	position: absolute;
+	display: flex;
+	width: 1440px;
+    height: 770px;
+	top: 1285px;
+}
+
+.catalog_text_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 540px;
+    height: 288px;
+	top: 5%;
+	left: 16%;
+}
+
+h1 {
+    font-family: 'Cormorant';
+	font-size: 100px;
+	font-style: normal;
+    font-weight: normal;
+	color: #fff;
+}
+
+.catalog_text {
+    font-family: 'Oswald';
+	font-size: 20px;
+	font-style: normal;
+    font-weight: normal;
+	color: #fff;
+}
+
+.catalog_text2 {
+    font-family: 'Oswald';
+	font-size: 20px;
+	font-style: normal;
+    font-weight: normal;
+	color: #fff;
+}
+
+.catalog_flowers_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+    height: 310px;
+	top: 55%;
+	left: 11%;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+}
+
+.catalog_bouquet_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 384px;
+    height: 353px;
+	top: 16%;
+	left: 58%;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+}
+
+.catalog_toys_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 483px;
+    height: 254px;
+	top: 66.9%;
+	left: 51%;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+}
+
+.catalog_name {
+	margin: 50px 0 25px 50px;
+	color: #43FFD2;
+	font-family: 'Oswald';
+	font-size: 30px;
+	text-transform: uppercase;
+	font-style: normal;
+    font-weight: bold;
+}
+
+.catalog_ul li {
+	margin: 0 0 10px 60px;
+	list-style: disc;
+	color: #fff;
+	font-family: 'Oswald';
+	font-size: 16px;
+	text-transform: uppercase;
+	font-style: normal;
+    font-weight: normal;
+}
+
+
+
+.popular_bouquet_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1110px;
+    height: 565px;
+	top: 2600px;
+	left: 15.5%;
+}
+
+.catalog_card_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1110px;
+    height: 450px;
+}
+
+.catalog_card_but {
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+	color: #D978AC;
+}
+
+.form_wrap {
+	position: absolute;
+	display: flex;
+	width: 445px;
+    height: 330px;
+	top: 5360px;
+	left: 57%;
+}
+
+.form-inner input {
+    display: block;
+	width: 398px;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+	background: transparent;
+    line-height: 40px;
+	color: #fff;
+    border: 1px solid #43FFD2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-inner textarea {
+    display: block;
+	width: 398px;
+    height: 120px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+	background: transparent;
+    line-height: 40px;
+	color: #fff;
+    border: 1px solid #43FFD2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-inner input[type="submit"] {
+	width: 255px;
+    height: 50px;
+	margin-top: 20px;
+    background: #43FFD2;
+    color: #000;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+.social_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 180px;
+    height: 40px;
+    top: 6150px;
+	left: 73.5%;
+}
+
+.social_icon {
+	cursor: pointer;
+}
+
+.footer_nav_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 156px;
+    height: 150px;
+	top: 6480px;
+	left: 47%;
+}
+
+.footer_nav {
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+	text-transform: uppercase;
+	color: #43FFD2;
+}
+
+.footer_adres_wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 156px;
+    height: 150px;
+	top: 6480px;
+	left: 76%;
+}
+
+.num_wrap {
+	display: flex;
+	flex-direction: column;
+	width: 156px;
+    height: 42px;
+	margin: 10px 0 10px 0;
+}
+
+.num_p {
+	font-style: normal;
+    font-weight: normal;
+	text-align: center;
+    font-size: 14px;
+	color: #43FFD2;
+}
+
+.num_pp {
+	font-style: normal;
+    font-weight: normal;
+	text-align: center;
+    font-size: 10px;
+	color: #fff;
+}
+
+.soc_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 156px;
+    height: 42px;
+}
